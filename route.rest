@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/62cd2637a9e2c9bb243f5e8e
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Tremendous Human",
+    "subscribedToChannel" : "Untold Biker"
+}
+
+###
+
+PATCH http://localhost:3000/subscribers/62cd2b29a9276d496f5f3eec
+Content-Type: application/json
+
+{
+    "name": "Cool Nigga"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/62cd2637a9e2c9bb243f5e8e
